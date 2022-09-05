@@ -1,7 +1,8 @@
 library ecommerce_menu;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+import 'package:flutter/material.dart';
+
+part './models/menu.dart';
+part './models/menu_action.dart';
+part './views/menu_list.dart';
+part './views/menu_widget.dart';
