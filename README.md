@@ -1,6 +1,19 @@
 # ecommerce-menu
 An ecommerce menu template for Flutter e-commerce applications.
 
+## Versioning & Features
+Current version: `v0.0.1`
+### Current Features
+-
+-
+
+### Developing Features
+-
+-
+### Future/Recommended Features
+-
+-
+
 ## Prerequisites
 
 ```
