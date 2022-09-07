@@ -13,8 +13,9 @@ class MenuWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Image.network(
+        Image.asset(
           menu.icon,
           fit: BoxFit.contain,
           height: 40,
@@ -25,6 +26,7 @@ class MenuWidget extends StatelessWidget {
           menu.title,
           textAlign: TextAlign.center,
           maxLines: 2,
+          overflow: TextOverflow.fade,
           style: textStyle,
         ),
       ],
